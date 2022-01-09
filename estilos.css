@@ -1,0 +1,98 @@
+/*Navbar*/
+.navbar.navbar-expand-lg.navbar-light{
+    width: 100.6%;
+    background-color: #212529;
+    color: aliceblue;
+}
+
+.d-flex{
+    background-color: #ffffff;
+    width: 8rem;
+    height: 2.5rem;
+    margin-left: 1.875rem;
+}
+
+#navbarSupportedContent{
+  padding-left: 80rem;
+}
+
+.nav-link{
+    width: 5rem;
+    background-color: #ffffff;
+    margin-right: 0.625rem;
+}
+/*End Navbar*/
+/*Hero (banner inicial)*/
+#banner{
+    height: 25.625rem;
+    background-color: #976F4A;
+}
+
+#big-box{
+    width: 75rem;
+    height: 18.75rem;
+    background-color: #CFE2F3;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0.125rem solid #70A8DC;
+}
+
+.top-flex{
+    width: 30rem;
+    height: 4rem;
+    background-color: #F5DEB3;
+    position: absolute;
+    margin: 1rem 22.5rem 1rem 22.5rem;
+    border: 0.125rem solid #C0AABE;
+}
+
+.bottom-flex{
+    width: 50rem;
+    height: 3rem;
+    background-color: #F5DEB3;
+    position: absolute;
+    margin: 6rem 12.5rem 1rem 12.5rem;
+    border: 0.125rem solid #C0AABE;
+
+}
+
+.last-flex{
+    width: 20rem;
+    height: 3rem;
+    background-color: #C0A9BD;
+    position: absolute;
+    margin: 13rem 27.5rem 1rem 27.5rem;
+    border: 0.125rem solid #9482C2;
+    border-radius: 0.625rem;
+}
+/*End Hero (banner inicial)*/
+/*Cards (tarjetas)*/
+#cards{
+    height: 22rem;
+    background-color: #FDEDDB;
+}
+
+#top-bar{
+    background-color: #212529;
+    width: 40rem;
+    height: 3rem;
+    margin: 0.625rem auto;
+}
+
+#small-box{
+    width: 80rem;
+    height: 12rem;
+    margin-left: 35rem;
+}
+
+.box-cards{
+    width: 12rem;
+    height: 10rem;
+    float: left;
+    background-color: #FCE1C3;
+    border: 0.125rem solid #FA9889;
+    border-radius: 0.625rem;
+    margin: 1rem auto;
+    margin-right: 5rem;
+}
+/*End Cards (tarjetas)*/
