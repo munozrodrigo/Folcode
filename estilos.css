@@ -1,11 +1,13 @@
-.navbar.navbar-expand-lg.navbar-light{
+/* .navbar.navbar-expand-lg.navbar-light{
     width: 100.6%;   
     background-color: #212529;
-    color: aliceblue;
+    color: #F3F3F3;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .d-flex{
-    background-color: #ffffff;
+    background-color: #F3F3F3;
     width: 8rem;
     height: 2.5rem;
     margin-left: 1.875rem;
@@ -17,18 +19,53 @@
 
 .nav-link{
     width: 5rem;
-    background-color: #ffffff;
+    background-color: #F3F3F3;
     margin-right: 0.625rem;
+} */
+.navbar {
+    height: 5rem;
+    width: 100%;
+    background-color: #212529;
 }
+
+.container-navbar {
+    width: 80rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    gap: 40rem;
+}
+
+.left-nav-box {
+    background-color: #F3F3F3;
+    width: 10rem;
+    height: 2.5rem;
+    float: left;
+}
+
+/* ul.mayor-nav-item li {
+    display: inline;
+} */
+
+li.nav-item{
+    display:inline-flex;
+    margin-left: 0.625rem;
+    height: 1.5rem;
+    width: 8rem;
+    background-color: #F3F3F3;
+}
+
 /*End Navbar*/
 /*Hero (banner inicial)*/
 #banner{
     height: 25.625rem;
     background-color: #976F4A;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-#big-box{
-    width: 75rem;
+#hero-big-box{
+    width: 60rem;
     height: 18.75rem;
     background-color: #CFE2F3;
     margin-left: auto;
@@ -37,30 +74,30 @@
 }
 
 .top-flex{
-    width: 30rem;
+    width: 20rem;
     height: 4rem;
     background-color: #F5DEB3;
     position: absolute;
-    margin: 1rem 22.5rem 1rem 22.5rem;
+    margin: 1rem 22.5rem 1rem 20.5rem;
     border: 0.125rem solid #C0AABE;
 }
 
 .bottom-flex{
-    width: 50rem;
+    width: 40rem;
     height: 3rem;
     background-color: #F5DEB3;
     position: absolute;
-    margin: 6rem 12.5rem 1rem 12.5rem;
+    margin: 6rem 12.5rem 1rem 10.5rem;
     border: 0.125rem solid #C0AABE;
 
 }
 
 .last-flex{
-    width: 20rem;
+    width: 15rem;
     height: 3rem;
     background-color: #C0A9BD;
     position: absolute;
-    margin: 13rem 27.5rem 1rem 27.5rem;
+    margin: 13rem 27.5rem 1rem 23.2rem;
     border: 0.125rem solid #9482C2;
     border-radius: 0.625rem;
 }
@@ -85,17 +122,18 @@
     margin-right: auto;
     display: flex;
     align-items: center;
+    gap: 8rem;
 }
 
 .box-cards{
-    width: 12rem;
-    height: 10rem;
+    width: 35rem;
+    height: 14rem;
     float: left;
     background-color: #FCE1C3;
     border: 0.125rem solid #FA9889;
-    border-radius: 0.625rem;
+    border-radius: 1.5rem;
+    border-width: 0.188rem;
     margin: 1rem auto;
-    margin-right: 5rem;
 }
 /*End Cards (tarjetas)*/
 /*Galería*/
@@ -104,7 +142,7 @@
     background-color: #FDE0BE;
 }
 
-#top-bar{
+#top-bar1{
     background-color: #212529;
     width: 40rem;
     height: 3rem;
@@ -128,3 +166,79 @@
     background-color: #6C2615;
 }
 /*Fin Galería*/
+/* Formulario de contacto */
+.formulario {
+    height: 28rem;
+    background-color: #41180F;
+}
+
+#top-bar2{
+    background-color: #F5DEB3;
+    width: 40rem;
+    height: 3rem;
+    margin: 0.625rem auto;
+}
+
+.container-form {
+    width: 60rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    gap: 1.25rem;
+}
+
+.container-row {
+    width: 50%;
+}
+
+.f-box {
+    background-color: #F3F3F3;
+    height: 2rem;
+    /* width: 45rem; */
+    margin-bottom: 2.5rem;
+}
+
+.f-box3 {
+    background-color: #F3F3F3;
+    height: 2rem;
+}
+
+.box-right {
+    width: 50%;
+    background-color: #F3F3F3;
+}
+
+#f-down {
+    height: 2.5rem;
+    background-color: #FA8072;
+    width: 20rem;
+    margin: 3.5rem auto;
+    border-radius: 0.313rem;
+}
+/* Fin Formulario de contacto */
+/* Footer */
+.footer {
+    height: 6rem;
+    background-color: #712E1E;
+}
+
+.footer-box {
+    width: 60rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    gap: 1.25rem;
+}
+
+.footer-boxes {
+    background-color: #F3F3F3;
+    height: 3rem;
+    width: 50%;
+}
+
+.footer-boxes3 {
+    background-color: #F5DEB3;
+    height: 3rem;
+    width: 50%;
+}
+/*Fin Footer */
